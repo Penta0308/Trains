@@ -1,0 +1,19 @@
+name: Train Garage
+description: Makes GT26CW.
+type: UnitFactory
+unitType: gt26cw
+size: 2
+produceTime: 60
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      silicon/10
+    ]
+  }
+}
+category: units
+requirements: [
+  silicon/40
+  titanium/20
+]

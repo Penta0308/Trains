@@ -1,0 +1,28 @@
+type: GroundUnit
+name: EMD GT26CW
+description: First, KORAIL 7400.
+flying: false
+weapon: {
+	name: traincollide
+	reload: 1.0f
+	bullet: {
+		lifetime: 300
+		speed: 0.01f
+		damage: 500
+		pierce: false
+		hitEffect: dynamicExplosion
+		despawnEffect: none
+		shootEffect: none
+		smokeEffect: none
+		hitSound: explosion
+		recoil: 0.0f
+		knockback: 2.0f
+		instantDisappear: false
+		collidesTeam: true
+		collidesAir: false
+	}
+}
+weaponOffsetY: 0.0f
+engineOffset: 0.0f
+enginesize: 1.0f
+hitsize: 30f
